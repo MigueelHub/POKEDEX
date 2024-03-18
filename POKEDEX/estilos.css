@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+    margin: 1;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.titulo {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 50px;
+    text-align: center; 
+    color: rgb(255, 0, 0); 
+    text-shadow: -2px -2px 0 #000000,  
+                  2px -2px 0 #000000,
+                 -2px 2px 0 #000000,
+                  2px 2px 0 #000000; /
+}
+
+.titulo2 {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 40px; 
+    color: rgb(255, 0, 0); 
+    text-shadow: -2px -2px 0 #000000,  
+                  2px -2px 0 #000000,
+                 -2px 2px 0 #000000,
+                  2px 2px 0 #000000; /
+}
+
+.pokedex1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.textosparagrafos{
+    font-family: "Press Start 2P", system-ui;
+    text-align: right center justify;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 50%;
+   text-shadow: -3px -3px 0 black;
+   color: white;
+}
+
+.menus{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px; 
+    text-shadow: -3px -3px 0 rgb(255, 0, 0);
+   color: white;
+   background-color: #000000;
+}
+
+.menus2{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px; 
+    text-align: right; 
+    padding: 20px;
+    position: absolute;
+    top: 70%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 38%;
+   color: white;
+   background-color: black;
+}
+
+.menus3{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px; 
+    text-align: right; 
+    padding: 20px;
+    position: absolute;
+    top: 90%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 38%;
+   color: white;
+   background-color: black;
+}
+
+.menus4{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px; 
+    text-align: right; 
+    padding: 20px;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    transform: translateY(-50%);
+   font-size: 30px;
+   width: 38%;
+   color: white;
+   background-color: black;
+}
+
+.charmander1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    width: 10%;
+}
+
+.charmeleon {
+    width: 500px; 
+    height: auto; 
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.charizard {
+    width: 600px; 
+    height: auto; 
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.squirtle {
+    width: 500px; 
+    height: auto; 
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    transform: translateY(-50%);
+}
